@@ -1,0 +1,259 @@
+____________________________________________________________________
+
+/* ## ADD POST LIST: */
+/* AddPostForm Styles */
+
+
+section {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  max-width: 600px;
+}
+.content {
+  padding-top: 80px;
+}
+
+h2 {
+  font-size: 32px; /* Increase the font size for emphasis */
+  margin-bottom: 20px;
+  color: #ff8800; /* Change the text color to a vibrant blue */
+  text-align: center;
+   /* Add a light gray background */
+  padding: 10px; /* Add some padding for spacing */
+  border-radius: 5px; /* Round the corners for a softer look */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+input[type="text"],
+select,
+textarea {
+
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  font-size: 16px;
+
+}
+
+textarea {
+  resize: vertical;
+  height: 150px; /* Adjust the height as needed */
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+____________________________________________________________________________________________________________________________________________
+/* ###HEADER COMPONENT: */
+/* CSS styles */
+/* Header Styles */
+/* Header styling */
+/* Header styling */
+.header-container {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-text {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0;
+  color: #ff5722; /* You can choose your desired color */
+}
+
+.nav-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-item {
+  margin-right: 20px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  color: #ff5722; /* You can choose your desired color */
+}
+
+
+
+____________________________________________________________________
+/* ###ALL POST WALE HEADING */
+/* CSS styles */
+.allpostheading {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  background-color: #ff5722; /* Use your preferred background color */
+  padding: 10px 0; /* Add padding for spacing */
+  border-radius: 5px; /* Add rounded corners */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+_____________________________________
+.posts-section {
+  padding: 20px;
+}
+
+.section-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.post-card {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.post-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.post-content {
+  font-size: 16px;
+  color: #666;
+}
+
+.post-author {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #888;
+}
+__________________________________________________________
+/* ##POST FILED AUTHOR TIME */
+/* CSS styles */
+.postCredit {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  color: #c20c0c;
+}
+
+.postAuthor {
+  font-weight: bold;
+  color: #70c114;
+  margin-right: 10px;
+}
+
+.timeAgo {
+  color: #129fc6;
+}
+
+_____________________________________________________________
+-----------------------------------
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background: #333;
+  color: whitesmoke;
+}
+
+body {
+  min-height: 100vh;
+  font-size: 1.5rem;
+  padding: 0 10% 10%;
+}
+
+input,
+textarea,
+button,
+select {
+  font: inherit;
+  margin-bottom: 1em;
+}
+
+main {
+  max-width: 500px;
+  margin: auto;
+}
+
+section {
+  margin-top: 1em;
+}
+
+article {
+  margin: 0.5em 0.5em 0.5em 0;
+  border: 1px solid whitesmoke;
+  border-radius: 10px;
+  padding: 1em;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.4;
+  font-size: 1.2rem;
+  margin: 0.5em 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.postCredit {
+  font-size: 1rem;
+}
+
+.reactionButton {
+  margin: 0 0.25em 0 0;
+  background: transparent;
+  border: none;
+  color: whitesmoke;
+  font-size: 1rem;
+}
