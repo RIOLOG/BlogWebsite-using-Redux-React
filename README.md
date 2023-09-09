@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-Deployed Link - reduxblogbyrio.netlify.app
+Deployed Link - [reduxblogbyrio.netlify.app](https://reduxblogbyrio.netlify.app/)
 
 ### `npm start`
 
