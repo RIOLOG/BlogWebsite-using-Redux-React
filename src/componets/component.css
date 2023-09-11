@@ -27,7 +27,7 @@ select {
 header {
 
 
-  
+  /* position: fixed; */
   padding: 20px 0;
   text-align: center;
   font-size: 25px;
@@ -75,6 +75,7 @@ nav a:hover, nav a:focus {
   text-align: center;
   padding: 50px;
   background-color: #f7f7f7;
+  position: fixed;
 }
 
 h1 {
